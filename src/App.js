@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
+          <h1>lauren's dictionary</h1>
           <img src={raccoon} className="raccoon-img" alt="raccoon" />
         </header>
         <main>
