@@ -5,6 +5,18 @@ body {
 
 a {
   color: #385170;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+a:hover {
+  color: #385170;
+  text-decoration: underline;
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .App-header {
