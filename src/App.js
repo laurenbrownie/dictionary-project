@@ -1,5 +1,4 @@
 import "./App.css";
-import raccoon from "./original.jpeg";
 import Dictionary from "./Dictionary";
 
 function App() {
