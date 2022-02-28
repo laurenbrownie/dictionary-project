@@ -38,9 +38,13 @@ export default function Dictionary(props) {
         <div className="whichWord">
           What word would you like to look up?
           <br />
-          <div className="example">example: book</div>
+          <div className="example">example: read, love, plant...</div>
           <form onSubmit={handleSubmit}>
-            <input type="search" onChange={handleWordChange} />
+            <input
+              type="search"
+              onChange={handleWordChange}
+              defaultValue={props.defaultWord}
+            />
           </form>
         </div>
         <Results results={results} />

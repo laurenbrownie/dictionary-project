@@ -8,10 +8,9 @@ function App() {
       <div className="container">
         <header className="App-header">
           <h1>lauren's dictionary</h1>
-          <img src={raccoon} className="raccoon-img" alt="raccoon" />
         </header>
         <main>
-          <Dictionary defaultWord="dictionary" />
+          <Dictionary defaultWord="book" />
         </main>
         <footer className="App-footer">
           <small>coded by lauren brown</small>

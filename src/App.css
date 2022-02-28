@@ -1,18 +1,14 @@
 body {
-  background-color: #e0ffcd;
+  background-color: #9fd3c7;
+  color: #142d4c;
 }
 
 a {
   color: #385170;
 }
 
-.raccoon-img {
-  max-width: 300px;
-  display: block;
-  margin: 0 auto;
-}
 .App-header {
-  margin: 30px 0;
+  margin: 50px 10px 0px 0px;
 }
 .App-footer {
   text-align: center;
