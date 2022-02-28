@@ -11,7 +11,7 @@ function App() {
           <img src={raccoon} className="raccoon-img" alt="raccoon" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultWord="dictionary" />
         </main>
         <footer className="App-footer">
           <small>coded by lauren brown</small>
